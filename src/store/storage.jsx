@@ -3,7 +3,7 @@ import { create } from 'zustand'
 
 
 export const useStorage = create((set) => ({
-  alight: 0,
+  alight: 1,
   ambientlight: "sunset",
   setLight: (intensity) => set((state) => ({ alight: intensity })),
   setAmbientLight: (ambient) => set((state) => ({ ambientlight: ambient })),
